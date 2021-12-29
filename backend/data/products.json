@@ -1,0 +1,47 @@
+[
+    {
+        "name": "any name will do",
+        "price": "48.89",
+        "description": "plenty english here",
+        "rating": 4.5,
+        "images": [{
+            "public_id": "products/tzfsnrli3szrdnb4jgge",
+            "url": "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/tzfsnrli3szrdnb4jgge.jpg"
+        }],
+        "category": "Electronics",
+        "seller": "Ebay",
+        "stock": 50,
+        "numOfReview": 32,
+        "review": []
+    },
+    {
+        "name": "most product are good",
+        "price": "42.39",
+        "description": "red rose and honey bee",
+        "rating": 4.0,
+        "images": [{
+            "public_id": "products/tzfsnrli3szrdnb4jgge",
+            "url": "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/tzfsnrli3szrdnb4jgge.jpg"
+        }],
+        "category": "Electronics",
+        "seller": "Ebay",
+        "stock": 20,
+        "numOfReview": 10,
+        "review": []
+    },
+    {
+        "name": "from Postman Client",
+        "price": "98.89",
+        "description": "The request platform",
+        "rating": 5.0,
+        "images": [{
+            "public_id": "products/tzfsnrli3szrdnb4jgge",
+            "url": "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/tzfsnrli3szrdnb4jgge.jpg"
+        }], 
+        "category": "Books",
+        "seller": "QT",
+        "stock": 89,
+        "numOfReview": 200,
+        "review": []
+    }
+]
