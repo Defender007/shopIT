@@ -52,4 +52,7 @@ set seeder Script in package.json
 <!-- ***************************************************** -->
 <!-- ********************* MODULE 5 ***********************-->
 <!-- ***************************************************** -->
+
+<!-- class template for Error Handling -->
 touch utils/errorHandler.js
+mkdir middlewares && touch middlewares/errors.js
