@@ -48,3 +48,8 @@ mkdir models && touch models/product.js
 mkdir data && touch data/product.json
 mkdir utils && touch utils/seeder.js
 set seeder Script in package.json
+
+<!-- ***************************************************** -->
+<!-- ********************* MODULE 5 ***********************-->
+<!-- ***************************************************** -->
+touch utils/errorHandler.js
