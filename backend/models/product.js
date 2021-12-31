@@ -2,6 +2,11 @@ const mongoose = require('mongoose')
 
 
 const productSchema =  new mongoose.Schema({
+    // _id: {
+    //     type: String,
+    //     trim: true,
+    //     maxLength: [24, 'Invalid product Id']
+    // },
     name: {
         type: String,
         required: [true, 'Please enter your name'],
