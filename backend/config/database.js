@@ -4,17 +4,19 @@ const connectDatabase = () => {
   mongoose
     .connect(process.env.DB_HOST, {
       useNewUrlParser: true,
-      useUnifiedTopology: true
-      
+      useUnifiedTopology: true,
     })
     .then((con) => {
       console.log(
         `mongoDB database connected with HOST: ${con.connection.host}`
       );
-    }).catch(err => {
-      console.log("Could not connect to MongoDB...", err.message)
-      //... Handle Unhandled Promise rejections here...
+    })
+    .catch((err) => {
+      //... Handled Unhandled Promise rejections caused by database connection here...
       //...as against the tutorial module5-5
+      console.log("Could not connect to MongoDB...", err.message);
+      console.log("Shutting down the Server");
+
       process.exit(1);
     });
 };
